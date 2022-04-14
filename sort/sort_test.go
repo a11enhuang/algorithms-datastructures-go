@@ -24,6 +24,12 @@ func TestQuickSort(t *testing.T) {
 	checkSort(arr, t)
 }
 
+func TestInsertionSort(t *testing.T) {
+	arr := getArray()
+	insertionSort(arr)
+	checkSort(arr, t)
+}
+
 // getArray 生成随机数组用于测试
 func getArray() []int {
 	arr := make([]int, 0, 20)

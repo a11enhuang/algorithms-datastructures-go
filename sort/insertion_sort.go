@@ -12,10 +12,9 @@ import "fmt"
 
 func insertionSort(arr []int) {
 	fmt.Println("正在使用插入排序法对arr进行排序.arr=", arr)
-	length := len(arr)
-	for i := 0; i < length; i++ {
+	for i := 0; i < len(arr); i++ {
 		tmp := arr[i]
-		j := i
+		j := i - 1
 		for ; j >= 0 && tmp < arr[j]; j-- {
 			//所有的元素向后移动
 			arr[j+1] = arr[j]
