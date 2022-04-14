@@ -1,4 +1,5 @@
 # algorithms-datastructures-go
+> 此项目中的所有算法并没有优化为最佳的状态
 
 算法与数据结构Golang版本的实现.
 
